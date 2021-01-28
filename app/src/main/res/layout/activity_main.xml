@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:id="@+id/tvNumbers"
+        style="@style/forTextViews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FD8E09"
+        android:gravity="center"
+        android:text="Numbers" />
+
+    <TextView
+        android:id="@+id/tvFamily"
+        style="@style/forTextViews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#379237"
+        android:text="Family Members" />
+
+    <TextView
+
+        android:id="@+id/tvColors"
+        style="@style/forTextViews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#8800A0"
+        android:text="Colors" />
+
+    <TextView
+        android:id="@+id/tvPhrases"
+        style="@style/forTextViews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#16AFCA"
+        android:text="Phrases" />
+
+
+</LinearLayout>
